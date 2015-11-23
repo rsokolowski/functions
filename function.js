@@ -1,3 +1,3 @@
-export.function = function(context, data) {
+exports.function = function(context, data) {
   context.success('done: ' + data);
 }
