@@ -1,5 +1,4 @@
 
-exports.function = function(context, data) {
-  console.warn(data);
-  context.done();
+exports.function = function(req, resp) {
+  resp.send('hello world - autodeployed');
 }
